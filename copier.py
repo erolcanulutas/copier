@@ -142,7 +142,7 @@ def refresh_and_copy():
 # UI
 # ----------------------------
 root = tk.Tk()
-root.title("Project File Dumper")
+root.title("Copier - Project File Dumper")
 
 main_frame = ttk.Frame(root)
 main_frame.pack(fill="both", expand=True)
@@ -191,3 +191,4 @@ ttk.Button(
 # ----------------------------
 build_tree()
 root.mainloop()
+
